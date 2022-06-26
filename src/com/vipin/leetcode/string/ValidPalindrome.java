@@ -4,10 +4,6 @@ package com.vipin.leetcode.string;
 
 public class ValidPalindrome {
 
-    public static void main(String[] args) {
-
-    }
-    class Solution {
         public boolean isPalindrome(String s) {
 
 
@@ -21,4 +17,3 @@ public class ValidPalindrome {
         }
     }
 
-}

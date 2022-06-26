@@ -4,11 +4,6 @@ package com.vipin.leetcode.arrays;
 
 public class BestTimetouyAndSellStockII {
 
-    public static void main(String[] args) {
-
-    }
-
-    class Solution {
         public int maxProfit(int[] prices) {
 
             int maxProfit = 0;
@@ -19,5 +14,4 @@ public class BestTimetouyAndSellStockII {
             }
             return maxProfit;
         }
-    }
 }

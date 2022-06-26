@@ -3,11 +3,7 @@ package com.vipin.leetcode.arrays;
 //link https://leetcode.com/problems/rotate-array/
 
 public class RotateArray {
-    public static void main(String[] args) {
 
-    }
-
-    class Solution {
         public void rotate(int[] nums, int k) {
             k %= nums.length;
             int len = nums.length;
@@ -32,4 +28,4 @@ public class RotateArray {
         }
 
     }
-}
+

@@ -3,11 +3,6 @@ package com.vipin.leetcode.string;
 // link : https://leetcode.com/problems/reverse-integer/
 public class ReverseInteger {
 
-    public static void main(String[] args) {
-
-    }
-
-    class Solution {
         public int reverse(int x) {
             long rev= 0;
             while( x != 0){
@@ -18,7 +13,4 @@ public class ReverseInteger {
             }
             return (int) rev;
         }
-
-    }
-
 }

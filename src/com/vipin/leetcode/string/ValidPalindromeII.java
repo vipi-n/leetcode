@@ -3,11 +3,6 @@ package com.vipin.leetcode.string;
 //link : https://leetcode.com/problems/valid-palindrome-ii/
 public class ValidPalindromeII {
 
-    public static void main(String[] args) {
-
-    }
-
-    class Solution {
         public boolean validPalindrome(String s) {
 
             int len = s.length();
@@ -39,4 +34,4 @@ public class ValidPalindromeII {
 
 
     }
-}
+

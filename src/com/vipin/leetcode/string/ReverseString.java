@@ -3,11 +3,7 @@ package com.vipin.leetcode.string;
 //link : https://leetcode.com/problems/reverse-string/
 
 public class ReverseString {
-    public static void main(String[] args) {
 
-    }
-
-    class Solution {
         public char[] reverseString(char[] s) {
             char temp;
             int len = s.length;
@@ -18,5 +14,4 @@ public class ReverseString {
             }
             return s;
         }
-    }
 }

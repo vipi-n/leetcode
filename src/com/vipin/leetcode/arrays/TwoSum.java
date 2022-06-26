@@ -5,11 +5,7 @@ package com.vipin.leetcode.arrays;
 import java.util.HashMap;
 
 public class TwoSum {
-    public static void main(String[] args) {
 
-    }
-
-    class Solution {
         public int[] twoSum(int[] nums, int target) {
             int length = nums.length;
             int f = 0;
@@ -28,12 +24,11 @@ public class TwoSum {
             return new int[]{f, l};
 
         }
-    }
+
 
     //  optimized --
 
-    class SolutionOp {
-        public int[] twoSum(int[] numbers, int target) {
+        public int[] twoSumOp(int[] numbers, int target) {
             int[] result = new int[2];
             HashMap<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < numbers.length; i++) {
@@ -47,4 +42,4 @@ public class TwoSum {
         }
     }
 
-}
+

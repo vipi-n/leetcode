@@ -4,10 +4,6 @@ package com.vipin.leetcode.string;
 
 public class ValidAnagram {
 
-    public static void main(String[] args) {
-
-    }
-    class Solution {
         public boolean isAnagram(String s, String t) {
 
 
@@ -29,4 +25,3 @@ public class ValidAnagram {
         }
     }
 
-}

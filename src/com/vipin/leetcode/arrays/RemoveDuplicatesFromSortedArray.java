@@ -3,11 +3,7 @@ package com.vipin.leetcode.arrays;
 //link https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 public class RemoveDuplicatesFromSortedArray {
-    public static void main(String[] args) {
 
-    }
-
-    class Solution {
         public int removeDuplicates(int[] nums) {
 
             int j = 0;
@@ -22,5 +18,3 @@ public class RemoveDuplicatesFromSortedArray {
             return j + 1;
         }
     }
-
-}

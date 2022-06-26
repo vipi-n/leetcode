@@ -3,11 +3,6 @@ package com.vipin.leetcode.string;
 //link : https://leetcode.com/problems/first-unique-character-in-a-string/
 public class FirstUniqueCharacterInAString {
 
-    public static void main(String[] args) {
-
-    }
-
-    class Solution {
         public int firstUniqChar(String s) {
 
             int[] resultArr = new int[26];
@@ -22,5 +17,3 @@ public class FirstUniqueCharacterInAString {
             return -1;
         }
     }
-
-}

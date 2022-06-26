@@ -4,11 +4,6 @@ package com.vipin.leetcode.arrays;
 
 public class PlusOne {
 
-    public static void main(String[] args) {
-
-    }
-
-    class Solution {
         public int[] plusOne(int[] digits) {
 
             int length = digits.length;
@@ -23,5 +18,4 @@ public class PlusOne {
             newArr[0] = 1;
             return newArr;
         }
-    }
 }

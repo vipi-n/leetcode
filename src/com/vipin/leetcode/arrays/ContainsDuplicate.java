@@ -4,11 +4,7 @@ import java.util.HashSet;
 //link https://leetcode.com/problems/contains-duplicate/
 
 public class ContainsDuplicate {
-    public static void main(String[] args) {
 
-    }
-
-    class Solution {
         public boolean containsDuplicate(int[] nums) {
 
             HashSet<Integer> set = new HashSet<>();
@@ -18,4 +14,4 @@ public class ContainsDuplicate {
             return set.size() != nums.length;
         }
     }
-}
+

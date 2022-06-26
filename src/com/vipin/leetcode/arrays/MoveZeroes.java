@@ -3,11 +3,7 @@ package com.vipin.leetcode.arrays;
 //link https://leetcode.com/problems/move-zeroes/
 
 public class MoveZeroes {
-    public static void main(String[] args) {
 
-    }
-
-    class Solution {
         public int[] moveZeroes(int[] nums) {
             int snowBall = 0;
             int length = nums.length;
@@ -23,8 +19,6 @@ public class MoveZeroes {
             return nums;
         }
     }
-
-}
 
 
 
